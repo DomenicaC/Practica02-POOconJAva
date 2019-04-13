@@ -10,6 +10,9 @@ import ec.edu.ups.interfaces.Interface;
 /**
  *
  * @author Domenica Cañizares
+ * @since 12-April-2019
+ * @version IDE 8.0.2 
+ * Clase hija 2
  */
 public class Ballena extends Mamifero implements Interface{
     private double peso;

@@ -10,6 +10,9 @@ import ec.edu.ups.interfaces.Interface;
 /**
  *
  * @author Domenica Cañizares
+ * @since 12-April-2019
+ * @version IDE 8.0.2 
+ * Clase hija 3
  */
 public class Serpiente extends Reptil implements Interface{
 

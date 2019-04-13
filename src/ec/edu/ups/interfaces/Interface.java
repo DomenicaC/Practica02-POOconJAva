@@ -8,6 +8,9 @@ package ec.edu.ups.interfaces;
 /**
  *
  * @author Domenica Cañizares
+ * @since 12-April-2019
+ * @version IDE 8.0.2 
+ * Clase Interface
  */
 public interface Interface {
     public abstract void comer();

@@ -15,6 +15,9 @@ import ec.edu.ups.clases.Serpiente;
 /**
  *
  * @author Domenica Cañizares
+ * @since 12-April-2019
+ * @version IDE 8.0.2 
+ * Clase prueba
  */
 public class Prueba {
         public static void main(String[] args) {

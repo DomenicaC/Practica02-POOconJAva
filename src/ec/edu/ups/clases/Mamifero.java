@@ -10,6 +10,9 @@ import java.util.logging.Logger;
 /**
  *
  * @author Domenica Cañizares
+ * @since 12-April-2019
+ * @version IDE 8.0.2 
+ * Clase Padre 1
  */
 public abstract class Mamifero extends Animal{
 
