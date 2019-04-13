@@ -5,7 +5,6 @@
  */
 package ec.edu.ups.clases;
 
-import java.util.logging.Logger;
 
 /**
  *
