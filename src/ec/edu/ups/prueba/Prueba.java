@@ -42,7 +42,7 @@ public class Prueba {
         ballena.calcularEdad();
 
         //Clase Serpiente
-        Serpiente serpiente = new Serpiente("Falsa Coral", "Serpiente que vive en zonas caidas", true, "Ratones", false, "Fria", 50, "Arrastrandose", 3, "Lucy", "Hembra", "Amarill, Rojo, Negro");
+        Serpiente serpiente = new Serpiente("Falsa Coral", "Serpiente que vive en zonas caidas", true, "Ratones", false, "Fria", 50, "Arrastrandose", 3, "Lucy", "Hembra", "Amarillo, Rojo, Negro");
         System.out.println(serpiente);
 
         serpiente.comer();
