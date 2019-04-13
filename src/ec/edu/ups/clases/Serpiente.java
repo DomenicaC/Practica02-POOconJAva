@@ -154,6 +154,4 @@ public class Serpiente extends Reptil implements Interface{
     public String toString() {
         return super.toString()+"Serpiente{" + "especie=" + especie + ", descripcion=" + descripcion + ", venenosa=" + venenosa + ", alimentacion=" + alimentacion + '}';
     }
-
-    
 }

@@ -154,6 +154,4 @@ public class Lagarto extends Reptil implements Interface{
     public String toString() {
         return "Lagarto{" + "tipoPiel=" + tipoPiel + ", a\u00f1osVida=" + añosVida + ", modoDefensa=" + modoDefensa + ", cambiaColor=" + cambiaColor + '}';
     }
-
-   
 }

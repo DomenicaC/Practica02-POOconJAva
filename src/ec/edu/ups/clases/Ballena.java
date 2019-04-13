@@ -153,5 +153,4 @@ public class Ballena extends Mamifero implements Interface{
     public String toString() {
         return "Ballena{" + "peso=" + peso + ", tamaño= " + tamaño + ", nomCientifico=" + nomCientifico + ", velocidad=" + velocidad + '}';
     }
-
 }

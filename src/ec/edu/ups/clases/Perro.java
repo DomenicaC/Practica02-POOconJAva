@@ -8,7 +8,6 @@ package ec.edu.ups.clases;
 import ec.edu.ups.interfaces.Interface;
 
 /**
- *
  * @author Domenica Cañizares
  * @since 12-April-2019
  * @version IDE 8.0.2 
@@ -154,5 +153,4 @@ public class Perro extends Mamifero implements Interface{
     public String toString() {
         return super.toString()+"Perro{" + "raza=" + raza + ", edad=" + edad + ", tempCorporal=" + tempCorporal + ", audicion=" + audicion + '}';
     }
-
 }
