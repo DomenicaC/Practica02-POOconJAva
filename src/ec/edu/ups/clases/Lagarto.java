@@ -14,7 +14,7 @@ import ec.edu.ups.interfaces.Interface;
  * @version IDE 8.0.2 
  * Clase hija 4
  */
-public class Lagarto extends Reptil implements Interface{
+public final class Lagarto extends Reptil implements Interface{
 
     private String tipoPiel;
     private int añosVida;
@@ -135,7 +135,7 @@ public class Lagarto extends Reptil implements Interface{
                 }
             }
         }
-        System.out.println("El lagarto tiene: " + anios+" años "+ meses+" meses y "+ dias+" días \n");
+        System.out.println("El lagarto "+this.getNombre()+ " tiene: " + anios+" años "+ meses+" meses y "+ dias+" días \n");
         return 0;
     }
 
@@ -152,6 +152,6 @@ public class Lagarto extends Reptil implements Interface{
     //toString
     @Override
     public String toString() {
-        return "Lagarto{" + "tipoPiel=" + tipoPiel + ", a\u00f1osVida=" + añosVida + ", modoDefensa=" + modoDefensa + ", cambiaColor=" + cambiaColor + '}';
+        return super.toString() + "Lagarto{" + "tipoPiel=" + tipoPiel + ", a\u00f1osVida=" + añosVida + ", modoDefensa=" + modoDefensa + ", cambiaColor=" + cambiaColor + '}';
     }
 }

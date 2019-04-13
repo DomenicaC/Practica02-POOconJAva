@@ -19,6 +19,7 @@ import ec.edu.ups.clases.Serpiente;
  * @version IDE 8.0.2 
  * Clase prueba
  */
+
 public class Prueba {
         public static void main(String[] args) {
         //Clase perro
@@ -68,7 +69,7 @@ public class Prueba {
         serpiente.setCodigo(3);
         serpiente.setNombre("Luci");
         serpiente.setSexo("Hembra");
-        serpiente.setColor("Verde");
+        serpiente.setColor("amarillo, rojo y negro");
         serpiente.setDescripcion("Serpiente que vive en zonas calidas");
         serpiente.setAlimentacion("Ratones");
         serpiente.setDesplazamiento("arrastrandose");
@@ -85,7 +86,7 @@ public class Prueba {
         //Clase lagarto
         Lagarto lagarto = new Lagarto();
         
-        lagarto.setCodigo(1);
+        lagarto.setCodigo(4);
         lagarto.setNombre("Vera");
         lagarto.setSexo("Hembra");
         lagarto.setColor("Verde con pintas cafes");

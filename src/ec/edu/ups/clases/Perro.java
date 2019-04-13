@@ -13,7 +13,7 @@ import ec.edu.ups.interfaces.Interface;
  * @version IDE 8.0.2 
  * Clase hija 1
  */
-public class Perro extends Mamifero implements Interface{
+public final class Perro extends Mamifero implements Interface{
 
     private String raza;
     private int edad;
@@ -134,7 +134,7 @@ public class Perro extends Mamifero implements Interface{
                 }
             }
         }
-        System.out.println("El perro tiene: " + anios+" años "+ meses+" meses y "+ dias+" días \n");
+        System.out.println("El perro " +this.getNombre()+ " tiene: " + anios+" años "+ meses+" meses y "+ dias+" días \n");
         return 0;
     }
 

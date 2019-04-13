@@ -14,7 +14,8 @@ import ec.edu.ups.interfaces.Interface;
  * @version IDE 8.0.2 
  * Clase hija 2
  */
-public class Ballena extends Mamifero implements Interface{
+public final class Ballena extends Mamifero implements Interface{
+    
     private double peso;
     private String tamaño;
     private String nomCientifico;
@@ -24,6 +25,7 @@ public class Ballena extends Mamifero implements Interface{
     }
 
     //constructor
+
     public Ballena(double peso, String tamaño, String nomCientifico, double velocidad, int numHueso, boolean pelo, String comida, String habitat, int codigo, String nombre, String sexo, String color) {
         super(numHueso, pelo, comida, habitat, codigo, nombre, sexo, color);
         this.peso = peso;
@@ -31,6 +33,7 @@ public class Ballena extends Mamifero implements Interface{
         this.nomCientifico = nomCientifico;
         this.velocidad = velocidad;
     }
+  
 
     //set
     public void setPeso(double peso) {
@@ -134,7 +137,7 @@ public class Ballena extends Mamifero implements Interface{
                 }
             }
         }
-        System.out.println("La ballena tiene: " + anios+" años "+ meses+" meses y "+ dias+" días \n");
+        System.out.println("La ballena "+this.getNombre()+" tiene: " + anios+" años "+ meses+" meses y "+ dias+" días \n");
         return 0;
     }
 
@@ -149,8 +152,9 @@ public class Ballena extends Mamifero implements Interface{
     }
 
     //toString
+
     @Override
     public String toString() {
-        return "Ballena{" + "peso=" + peso + ", tamaño= " + tamaño + ", nomCientifico=" + nomCientifico + ", velocidad=" + velocidad + '}';
+        return super.toString() + "Ballena{" + "peso=" + peso + ", tama\u00f1o=" + tamaño + ", nomCientifico=" + nomCientifico + ", velocidad=" + velocidad + '}';
     }
 }

@@ -14,7 +14,7 @@ package ec.edu.ups.clases;
  */
 public abstract class Reptil extends Animal{
 
-    private boolean extremidades;
+   private boolean extremidades;
     private String sangre;
     private int numHuevos;
     private String desplazamiento;
@@ -69,9 +69,9 @@ public abstract class Reptil extends Animal{
     public abstract double calcularEdad();
 
     //toString
+
     @Override
     public String toString() {
-        return "Reptil{" + "extremidades=" + extremidades + ", sangre=" + sangre + ", numHuevos=" + numHuevos + ", desplazamiento=" + desplazamiento + '}';
+        return super.toString() + "Reptil{" + "extremidades=" + extremidades + ", sangre=" + sangre + ", numHuevos=" + numHuevos + ", desplazamiento=" + desplazamiento + '}';
     }
-    
 }

@@ -14,7 +14,7 @@ import ec.edu.ups.interfaces.Interface;
  * @version IDE 8.0.2 
  * Clase hija 3
  */
-public class Serpiente extends Reptil implements Interface{
+public final class Serpiente extends Reptil implements Interface{
 
     private String especie;
     private String descripcion;
@@ -135,7 +135,7 @@ public class Serpiente extends Reptil implements Interface{
                 }
             }
         }
-        System.out.println("La serpiente tiene: " + anios+" años "+ meses+" meses y "+ dias+" días \n");
+        System.out.println("La serpiente " + this.getNombre() + " tiene: "+anios+" años "+ meses+" meses y "+ dias+" días \n");
         return 0;
     }
 

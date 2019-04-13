@@ -75,6 +75,4 @@ public abstract class Mamifero extends Animal{
         return super.toString()+"Mamifero{" + "numHueso=" + numHueso + ", pelo=" + pelo + ", comida=" + comida + ", habitat=" + habitat + '}';
     }
     
-
-    
 }
